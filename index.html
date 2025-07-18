@@ -1,64 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <title>Phishing Simulation Result</title>
+  <title>Phishing Test Resultaat</title>
   <style>
     body {
-      margin: 0;
-      font-family: sans-serif;
-      background-color: #000;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .container {
-      position: relative;
-      width: 90%;
-      max-width: 800px;
-    }
-
-    img {
-      width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    }
-
-    .overlay {
-      position: absolute;
-      bottom: 20px;
-      left: 0;
-      right: 0;
-      background-color: rgba(0, 0, 0, 0.75);
-      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
       text-align: center;
-      border-radius: 0 0 12px 12px;
+      padding: 60px;
     }
-
-    .overlay h1 {
-      margin: 0 0 10px;
-      color: #f44336;
+    .container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
-
-    .overlay p {
-      margin: 0;
-      font-size: 1rem;
-      color: #ccc;
+    img.logo {
+      max-width: 80%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #e63946;
+    }
+    p {
+      font-size: 18px;
+      color: #333;
+    }
+    .info {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
     }
   </style>
 </head>
 <body>
-
   <div class="container">
-    <img src="https://i.imgflip.com/9m7qas.jpg" alt="Gotcha!">
-    <div class="overlay">
-      <h1>Unfortunately, you failed the phishing simulation.</h1>
-      <p>The given credentials were <strong>not stored</strong>. Please be cautious about where you enter your login details.</p>
+    <img
+      class="logo"
+      alt="RM Fysio Performance &amp; Bergman Clinics Logo"
+      src="https://rmfysioperformance.nl/wp-content/uploads/2024/04/RM-Fysio-Performance-partners-logo-Bergman-Clinics-PNG.png"
+    />
+    <h1>Phishing simulatie niet gehaald.</h1>
+    <p>U heeft op een verdachte link geklikt die deel uitmaakt van een beveiligingsoefening.</p>
+    <p>Deze test is bedoeld om het bewustzijn rondom cyberdreigingen te vergroten.</p>
+    <p>De ingevoerde gegevens worden niet opgeslagen.</p>
+    <hr>
+    <p><strong>Wat kunt u nu doen?</strong></p>
+    <ul style="text-align:left; display:inline-block;">
+      <li>Let altijd goed op verdachte e-mails</li>
+      <li>Controleer de afzender en de URL voordat u klikt</li>
+      <li>Rapporteer verdachte berichten aan het IT-team</li>
+    </ul>
+    <div class="info">
+      Deze simulatie is uitgevoerd door het beveiligingsteam van Bergman Clinics.
     </div>
   </div>
-
 </body>
 </html>
